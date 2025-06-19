@@ -15,16 +15,12 @@ Tech Stack
 - HuggingFace Transformers (Translation Models)
 - Pyttsx3 (Text-to-Speech)
 
- Installation
+  
+REQUIREMENTS:
+transformers
+torch
+pyttsx3
 
-1. Clone the repository:
-
-git clone https://github.com/your-username/english-to-global-language-translator.git
-cd english-to-global-language-translator
-
-2.Install required packages:
-
-pip install transformers pyttsx3 torch
-3.Run the application:
-
-python translator.py
+transformers==4.41.1
+torch==2.3.0
+pyttsx3==2.90
